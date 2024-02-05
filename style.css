@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 255, 255,0.2);
+    
+}
+
+
+.heading{
+    text-align: center;
+    color: orange;
+
+}
+
+button { 
+     background-color: goldenrod;
+     color: aliceblue;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 100;
+     font: bold;
+}
+
+.para {
+    text-align: center;
+}
+
+.graph {
+    color: red;
+    
+}
+
+.line {
+    color: green;
+    
+}
+
+h1{
+    color: blue;
+}
+
