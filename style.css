@@ -6,24 +6,58 @@ body {
 
 .heading{
     text-align: center;
-    color: orange;
-
+    background-color: black;
+    color: goldenrod;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 12px;
+    border: 8px solid goldenrod;
+    
 }
 
-button { 
-     background-color: goldenrod;
-     color: aliceblue;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-weight: 100;
-     font: bold;
+#button-lasagna { 
+     
+     display: inline-block;
+     margin-left: 280px;
+     background-color: green;
+     color: goldenrod;
+     margin-top: 10px;
 }
-
+#button-lasagna:hover {
+     transform: scale(1.5);
+}
+#button-pizza {
+    display: inline-block;
+    margin-left: 330px;
+    background-color: blueviolet;
+    color: goldenrod;
+}
+#button-pizza:hover {
+    transform: scale(1.5);
+}
+#button-gajar-halwa {
+    display: inline-block;
+    margin-left: 340px;
+    background-color: hotpink;
+    color: black;
+}
+#button-gajar-halwa:hover {
+    transform: scale(1.5);
+}
 .para {
     text-align: center;
+    padding: 1px;
+    margin-left: 800px;
+    margin-top:-15px;
 }
 
 .graph {
     color: red;
+    padding: 1px;
+    margin-top:80px;
+    margin-left: 800px;
     
 }
 
@@ -39,4 +73,34 @@ button {
 .heading-pizza {
     color: yellow;
 }
+#img1{
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 70px;
+    border: 5px solid green;
+    height: 200px;
+    width: 300px;
+}
+#img2 {
+    padding:10px;
+    margin-right: 70px;
+    border: 5px solid blueviolet;
+    height: 200px;
+    width: 300px;
+}
+#img3 {
+    padding: 10px;
+    border: 5px solid hotpink;
+    height: 200px;
+    width: 300px;
+}
 
+.list{ 
+    padding: 30px;
+    background-color: grey;
+    margin: 0px 100px;
+}
+#logo {
+    margin: 20px;
+    border: 5px solid goldenrod;
+}
